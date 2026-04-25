@@ -67,7 +67,9 @@ nav ul li a:hover {
 /* Hero Section */
 #hero {
     height: 60vh;
-    background: linear-gradient(rgba(0,32,74,0.8), rgba(0,32,74,0.8)), url('https://images.unsplash.com/photo-1529699211952-734e80c4d42b?auto=format&fit=crop&q=80') center/cover;
+    /* Replace the URL below with your actual image path */
+    background: linear-gradient(rgba(0,32,74,0.7), rgba(0,32,74,0.7)), 
+                url('images/team-photo.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
