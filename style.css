@@ -77,17 +77,19 @@ nav ul li a:hover {
 
 /* Content Area Styling */
 .content-area {
-    padding: 50px 10%;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 50px 5%;
+    max-width: 900px; /* Reduced width makes it look better on wide screens */
+    margin: 0 auto;   /* This centers the container itself */
+    text-align: left; /* Keeps the text inside readable, but centered in the page */
 }
 
 .content-area h1 {
     color: var(--navy);
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-bottom: 3px solid var(--gold);
-    display: inline-block;
+    display: block;    /* Changed to block */
+    text-align: center; /* Centers the "Season Schedule" title */
 }
 
 /* Info Cards for Schedule */
@@ -97,6 +99,16 @@ nav ul li a:hover {
     border-radius: 8px;
     border-left: 5px solid var(--navy);
     margin-top: 20px;
+}
+
+.info-card ul {
+    list-style-position: inside; /* Keeps bullets aligned with the text */
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.info-card li {
+    margin-bottom: 8px;
 }
 
 .info-card h2 {
